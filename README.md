@@ -22,17 +22,17 @@ You are done 🧙✨📈
 
 ## Installation in 3 steps
 ### 1. Import library
-Go to your GAS project, from the main menu on the top and do "Resources" > "Libraries" add the id of the library<br>
-**`MeEY_ICVdfxPmGkVzM0iAwLQZHlojl1UC`**<br>
-Select the latest version.
-<img src="https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs01.png" width="400"/><br>
-<img src="https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs02.png" width="400"/><br>
-<img src="https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs03.png" width="400"/><br>
+Go to your GAS project, from the main menu on the top and do "Resources" > "Libraries" add the id of the library<br><br>
+**`MeEY_ICVdfxPmGkVzM0iAwLQZHlojl1UC`**<br><br>
+Select the latest version.<br>
+<img src="https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs01.png" width="500"/><br>
+<img src="https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs02.png" width="500"/><br>
+<img src="https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs03.png" width="500"/><br>
 
 ### 2. Set Scopes Explicitly
 Before proceeding make sure you understand the [concepts](https://developers.google.com/apps-script/concepts/scopes) on setting scopes.
 
-On the top menu select "View" > "Show manifest file".
+On the top menu select "View" > "Show manifest file".<br>
 <img src="https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs04.png" width="400"/><br>
 This will make visible an additional file on your project called `appsscript.json`.<br>
 <img src="https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs05.png" width="400"/><br>
@@ -47,5 +47,5 @@ On the top part of the file add the following lines.<br>
     "https://www.googleapis.com/auth/spreadsheets"
     ]
 ```
-<img src="https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs06.png" width="400"/><br>
+<img src="https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs06.png" width="450"/><br>
 
