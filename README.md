@@ -26,7 +26,7 @@ Go to your GAS project, from the main menu on the top<br>
 add the id of the library
 `MeEY_ICVdfxPmGkVzM0iAwLQZHlojl1UC`
 Select the latest version.
-![alt text](https://drive.google.com/file/d/1ChqjLlkR9SE84JJtW4UjM_R5g8Vb3rlG/preview)
+![alt text](https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs01.png)
 
 2. Set Scopes Explicitly
 
