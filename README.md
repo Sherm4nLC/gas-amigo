@@ -25,17 +25,17 @@ You are done 🧙✨📈
 Go to your GAS project, from the main menu on the top and do "Resources" > "Libraries" add the id of the library<br>
 **`MeEY_ICVdfxPmGkVzM0iAwLQZHlojl1UC`**<br>
 Select the latest version.
-<img src="https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs01.png" width="400"/>
-<img src="https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs02.png" width="400"/>
-<img src="https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs03.png" width="400"/>
+<img src="https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs01.png" width="400"/><br>
+<img src="https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs02.png" width="400"/><br>
+<img src="https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs03.png" width="400"/><br>
 
 ### 2. Set Scopes Explicitly
 Before proceeding make sure you understand the [concepts](https://developers.google.com/apps-script/concepts/scopes) on setting scopes.
 
 On the top menu select "View" > "Show manifest file".
-<img src="https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs04.png" width="400"/>
-This will make visible an additional file on your project called `appsscript.json`.
-<img src="https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs05.png" width="400"/>
+<img src="https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs04.png" width="400"/><br>
+This will make visible an additional file on your project called `appsscript.json`.<br>
+<img src="https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs05.png" width="400"/><br>
 <br>
 On the top part of the file add the following lines.<br>
 **Remove any scopes you consider you don't need, depending on the functions you want to use.**
@@ -47,5 +47,5 @@ On the top part of the file add the following lines.<br>
     "https://www.googleapis.com/auth/spreadsheets"
     ]
 ```
-<img src="https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs06.png" width="400"/>
+<img src="https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs06.png" width="400"/><br>
 
