@@ -26,9 +26,16 @@ Go to your GAS project, from the main menu on the top<br>
 add the id of the library
 `MeEY_ICVdfxPmGkVzM0iAwLQZHlojl1UC`
 Select the latest version.
-![alt text](https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs01.png)
+![alt text](https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs01.png =250x)
+![alt text](https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs02.png =250x)
+![alt text](https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs03.png =250x)
 
 2. Set Scopes Explicitly
+Before proceeding make sure you understand the [concepts](https://developers.google.com/apps-script/concepts/scopes) on setting scopes.
+
+On the top menu select "View" > "Show manifest file".
+![alt text](https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs04.png =250x)
+This will make visible an additional file on your project called `appsscript.json`.
+![alt text](https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs05.png =250x)
 
 
-https://developers.google.com/apps-script/concepts/scopes
