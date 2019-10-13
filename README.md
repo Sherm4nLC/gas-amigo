@@ -17,25 +17,33 @@ var sheetId = '1B6uA-hE8LDLmOtbqtvM-vc8AHuDkLXGYpclwJCFdOSc';
 var tabName = 'Sheet1';
 gami.exportDataToSheet(data, headers, sheetId, tabName); // this onverrides any existing content
 ```
+You are done 🧙✨📈
 
 
 ## Installation in 3 steps
-1. Import library
-Go to your GAS project, from the main menu on the top<br>
-"Resources" > "Libraries"
-add the id of the library
-`MeEY_ICVdfxPmGkVzM0iAwLQZHlojl1UC`
+### 1. Import library
+Go to your GAS project, from the main menu on the top and do "Resources" > "Libraries" add the id of the library<br>
+**`MeEY_ICVdfxPmGkVzM0iAwLQZHlojl1UC`**<br>
 Select the latest version.
-![alt text](https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs01.png =250x)
-![alt text](https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs02.png =250x)
-![alt text](https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs03.png =250x)
+<img src="https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs01.png" width="400"/>
+<img src="https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs02.png" width="400"/>
+<img src="https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs03.png" width="400"/>
 
-2. Set Scopes Explicitly
+### 2. Set Scopes Explicitly
 Before proceeding make sure you understand the [concepts](https://developers.google.com/apps-script/concepts/scopes) on setting scopes.
 
 On the top menu select "View" > "Show manifest file".
-![alt text](https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs04.png =250x)
+<img src="https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs04.png" width="400"/>
 This will make visible an additional file on your project called `appsscript.json`.
-![alt text](https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs05.png =250x)
-
+<img src="https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs05.png" width="400"/>
+On the top part of the file add the following lines. **Remove any scopes you consider you don't need, depending on the functions you want to use.**
+```
+"oauthScopes": [
+    "https://mail.google.com/",
+    "https://www.googleapis.com/auth/bigquery",
+    "https://www.googleapis.com/auth/drive",
+    "https://www.googleapis.com/auth/spreadsheets"
+    ]
+```
+<img src="https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs06.png" width="400"/>
 
