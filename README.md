@@ -36,7 +36,9 @@ On the top menu select "View" > "Show manifest file".
 <img src="https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs04.png" width="400"/>
 This will make visible an additional file on your project called `appsscript.json`.
 <img src="https://raw.githubusercontent.com/Sherm4nLC/gas-amigo/master/docs/docs05.png" width="400"/>
-On the top part of the file add the following lines. **Remove any scopes you consider you don't need, depending on the functions you want to use.**
+<br>
+On the top part of the file add the following lines.<br>
+**Remove any scopes you consider you don't need, depending on the functions you want to use.**
 ```
 "oauthScopes": [
     "https://mail.google.com/",
