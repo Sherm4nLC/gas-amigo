@@ -99,7 +99,6 @@ function convertRangeToCsvFile_(sheet) {
 // Gets data from google big query returning an object like this
 // {results: queryResults, data:data, headers:headers}
 function getQueryData(queryStr, projectId, useLegacySql) {
-  if (projectId === undefined) {projectId = 'tmg-plat-dev'};
   if (useLegacySql === undefined) {useLegacySql = false};
   DriveApp.getRootFolder();' to get Drive Auth Scope'
   var job = {
@@ -419,9 +418,9 @@ function extractTableToStorage(projectId, datasetId, tableId, destinationUris) {
 }
 
 function testFoo() {
-  var projectId = 'tmg-plat-dev';
-  var datasetId = 'glc';
-  var tableId = 'riviera_2';
-  var destinationUris = ['gs://tmg-finance/riviera_test_4.csv'];
+  var projectId = '';
+  var datasetId = '';
+  var tableId = '';
+  var destinationUris = ['gs://bucket/file.csv'];
   extractTableToStorage(projectId, datasetId, tableId, destinationUris);  
 }
